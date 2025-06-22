@@ -1,0 +1,23 @@
+Performance approach:
+
+Scenarios:
+
+Search for products with various filters and verify search response time under load.
+
+Add multiple products (different categories and options) to cart simultaneously from multiple users.
+
+Perform checkout including applying discounts, payment processing, and order confirmation.
+
+Simulate guest vs logged-in users for cart persistence and checkout speed.
+
+Test API endpoints related to product catalog, cart, and order submission for response times.
+
+Important Parameters to Measure:
+
+Response Time: Time taken for each critical action (search, add to cart, checkout).
+
+Throughput: Number of requests handled per second.
+
+Error Rate: Percentage of failed transactions under load.
+
+Concurrent Users: Number of users the system supports before degradation.
