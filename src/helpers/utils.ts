@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://magento.softwaretestingboard.com';
+export const BASE_URL = 'add your address';
 
 export const selectors = {
   registerLink: 'text=Create an Account',
